@@ -35,10 +35,13 @@ Focused on individual content exploration:
 🎬 Director and cast
 🌍 Countries where the title is available
 🛠️ Tools & Technologies
+
 Power BI
 Excel (data source)
 Data modeling
 DAX
+
+
 📂 Dataset
 Source: Public Netflix dataset (or simulated dataset)
 Format: Excel (.xlsx)
@@ -50,6 +53,8 @@ Country
 Release Year
 Rating
 Cast & Director
+
+
 📈 Key Insights
 📊 Movies dominate the platform compared to TV Shows
 🌍 International Movies are the most common genre
@@ -57,13 +62,6 @@ Cast & Director
 🔞 TV-MA is the most frequent rating
 🌐 Content is heavily concentrated in specific regions
 🖼️ Dashboard Preview
-🔹 Global Analysis
-
-
-
-
-🔹 Title Detail
-
 
 
 
@@ -71,14 +69,16 @@ Cast & Director
 Download the .pbix file from this repository
 Open it using Power BI Desktop
 Interact with filters and visuals
+
 💡 Future Improvements
-Integration with real-time APIs
+
 Advanced segmentation (user behavior simulation)
 Predictive analytics (content trends)
 Integration with Power Automate for reporting
-👨‍💻 Author
 
-Fau Guerrero
+
+👨‍💻 Author
+Faubricio Guerrero
 IT Specialist | Power Platform | Data Analysis
 
 📌 Notes
