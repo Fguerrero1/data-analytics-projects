@@ -1,86 +1,131 @@
-🎬 Netflix Data Analysis Dashboard
-🧠 Problem
+# 🚗 Classic Models Sales Dashboard
 
-Streaming platforms like Netflix manage thousands of titles across different countries, genres, and ratings. However, without proper visualization, it becomes difficult to identify trends, content distribution, and strategic opportunities.
+## 🧠 Business Problem
 
-🎯 Objective
+The company lacks clear visibility into its sales performance across different countries, product lines, and customers. Decision-making is limited due to the absence of centralized and interactive reporting.
 
-To analyze Netflix's catalog using interactive dashboards in Power BI, providing insights into:
+---
 
-Content growth over time
-Distribution by rating
-Top genres
-Global availability
-Detailed title-level exploration
-📊 Dashboard Overview
+## 🎯 Objective
 
-This project includes two main dashboards:
+Develop an interactive Power BI dashboard to analyze sales and profitability, enabling stakeholders to:
 
-1️⃣ Global Content Analysis
+* Monitor total sales and net profit
+* Identify top-performing product lines
+* Analyze sales distribution by country and office
+* Track sales trends over time
+* Drill down into customer-level insights
 
-Provides a high-level overview of Netflix content:
+---
 
-📈 Growth of Movies vs TV Shows over time
-⭐ Distribution of content by rating (TV-MA, PG, etc.)
-🎭 Top 10 genres
-🌍 Global availability by country
-2️⃣ Title Detail Analysis
+## 📊 Dashboard Overview
 
-Focused on individual content exploration:
+This project contains **two interactive report pages**:
 
-🎬 Search by Movie/TV Show
-📅 Release year and rating
-🧾 Description of the title
-🎭 Genre classification
-🎬 Director and cast
-🌍 Countries where the title is available
-🛠️ Tools & Technologies
+---
 
-Power BI
-Excel (data source)
-Data modeling
-DAX
+### 1️⃣ Sales & Profit Breakdown (Hierarchical Analysis)
+
+* 🌍 Sales by Customer Country
+* 🚗 Product Line performance (Classic Cars, Vintage Cars, etc.)
+* 👤 Customer-level contribution
+* 💰 Net Profit distribution
+* 📋 Detailed monthly sales overview (Year, Month, MoM%, YTD)
+
+👉 Includes a **drill-down hierarchy**:
+Country → Product Line → Customer
+
+---
+
+### 2️⃣ Sales Performance Overview
+
+* 📈 Sales by Product Line
+* 🌍 Sales by Customer Country
+* 🏢 Sales by Office (Donut Chart)
+* 📊 Sales vs Cost analysis
+* 📅 Time filtering (2003–2005)
+* 📌 Key KPIs:
+
+  * Total Sales: **$9.6M**
+  * Unique Orders: **326**
+  * Average Sales: **$29.5K**
+
+---
+
+## 🛠️ Tools & Technologies
+
+* Power BI
+* Excel (data source)
+* DAX (data modeling & calculations)
+* Data Visualization best practices
+
+---
+
+## 📂 Dataset
+
+* Format: Excel (.xlsx)
+* Includes:
+
+  * Orders
+  * Customers
+  * Product Lines
+  * Sales & Cost data
+  * Dates (for time analysis)
+
+---
+
+## 📈 Key Insights
+
+* 🚗 **Classic Cars** is the top-performing product line (~$3.9M in sales)
+* 🌍 **USA and France** lead total sales contribution
+* 📉 Lower-performing categories include **Trains and Ships**
+* 📊 Sales show variability across months with strong growth periods
+* 💰 Profitability is concentrated in specific product lines and regions
+
+---
 
 
-📂 Dataset
-Source: Public Netflix dataset (or simulated dataset)
-Format: Excel (.xlsx)
-Data includes:
-Title
-Type (Movie / TV Show)
-Genre
-Country
-Release Year
-Rating
-Cast & Director
+## 🚀 How to Use
 
+1. Download the `.pbix` file from this repository
+2. Open using Power BI Desktop
+3. Use filters:
 
-📈 Key Insights
-📊 Movies dominate the platform compared to TV Shows
-🌍 International Movies are the most common genre
-📅 Significant growth in content between 2016–2019
-🔞 TV-MA is the most frequent rating
-🌐 Content is heavily concentrated in specific regions
-🖼️ Dashboard Preview
+   * Country
+   * Product Line
+   * Date
+4. Navigate between pages for different insights
 
+---
 
+## 💡 Business Value
 
-🚀 How to Use
-Download the .pbix file from this repository
-Open it using Power BI Desktop
-Interact with filters and visuals
+This dashboard enables:
 
-💡 Future Improvements
+* Faster decision-making through centralized insights
+* Identification of high-value customers and products
+* Improved sales strategy based on geographic performance
+* Better tracking of KPIs and financial performance
 
-Advanced segmentation (user behavior simulation)
-Predictive analytics (content trends)
-Integration with Power Automate for reporting
+---
 
+## 🔮 Future Improvements
 
-👨‍💻 Author
-Faubricio Guerrero
-IT Specialist | Power Platform | Data Analysis
+* Integration with real-time data sources
+* Forecasting using time series models
+* Customer segmentation (RFM analysis)
+* Automation with Power Automate
 
-📌 Notes
+---
 
-This project is for educational and portfolio purposes only. No sensitive or proprietary data is included.
+## 👨‍💻 Author
+
+**Faubricio Guerrero**
+IT Specialist | Data Analytics | Power Platform
+
+---
+
+## 📌 Notes
+
+This project is intended for portfolio purposes only.
+Data used is either simulated or publicly available.
