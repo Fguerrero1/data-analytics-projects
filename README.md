@@ -36,7 +36,7 @@ Other
 Process Documentation
 Vendor Management
 Inventory Systems
-📊 Featured Projects
+ Featured Projects
 🔹 Netflix Data Analysis Dashboard
 
 Analysis of content distribution, ratings, and global availability using Power BI.
@@ -46,33 +46,43 @@ Analysis of content distribution, ratings, and global availability using Power B
 Interactive dashboard analyzing sales, profit, and customer behavior across regions.
 
 
-💼 Professional Experience
+ Professional Experience
 IT Support Specialist
+
 Process automation, Power Platform development, IT operations
+
 Inventory Analyst – Coca-Cola FEMSA
+
 Data analysis, inventory tracking, reporting in Power BI
+
 Service Desk Agent – DXC Technology
+
 Global IT support (English/Spanish), troubleshooting, ticket management
-📜 Certifications
-Microsoft Power Platform (PL-900)
-Google IT Support
-IBM AI Fundamentals
-Lean Six Sigma Yellow Belt
-SQL Fundamentals
-🌐 Languages
-Spanish (Native)
-English (Conversational)
-Italian (Basic)
-📈 Current Focus
-Data Analytics & Business Intelligence
-Cloud & Azure (learning path)
-Process Automation at scale
-AI integration in business workflows
+
+
+
+ Certifications
+-Microsoft Power Platform (PL-900)
+-Google IT Support
+-IBM AI Fundamentals
+-Lean Six Sigma Yellow Belt
+-SQL Fundamentals
+
+Languages
+-Spanish (Native)
+-English (Conversational)
+-Italian (Basic)
+
+
+Current Focus
+-Data Analytics & Business Intelligence
+-Cloud & Azure (learning path)
+-Process Automation at scale
+-AI integration in business workflows
+
+
 📫 Contact
 
 📧 faubricioguerrero81@gmail.com
-📍 San José, Costa Rica
+📍Costa Rica
 
-⚡ Motto
-
-"Automate what repeats. Analyze what matters. Build what impacts."
